@@ -1,0 +1,19 @@
+# ninja log v5
+7	1850	6728836528497978	lib/libgtestd.a	7804ab63965f9b9
+1850	1899	6728836529010589	lib/libgtest_maind.a	c601b6129a43a5df
+7	767	6728836221049087	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	5c8fcad4691d9ec5
+1	390	6729734673771347	build.ninja	43e0046464cfe1b8
+6	4941	6728836262688325	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	70fde336b6c698d4
+11	358	6729734948625589	CMakeFiles/WaterCalculation.dir/Point.cpp.obj	d08573b6372cafb2
+7	418	6729734949217390	CMakeFiles/WaterCalculation.dir/Storage.cpp.obj	ebbaf9357498507c
+3	472	6729734949759523	CMakeFiles/WaterCalculation.dir/WaterContainerCalculator.cpp.obj	ffe7b26240258de6
+10	488	6729734949919095	CMakeFiles/WaterCalculation.dir/CalculateWater.cpp.obj	2684fbaa0777e697
+15	876	6729734953802926	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	5b5633bc33a18174
+8	894	6729734953991699	CMakeFiles/WaterCalculation.dir/WaterCalculatorTest.cpp.obj	c2e54296e03526ea
+5	1056	6729734955592556	CMakeFiles/WaterCalculation.dir/Cat.cpp.obj	2f962d629b383bb6
+13	5111	6729734996052947	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	a3e873e49cc542af
+5111	6956	6729735014586135	lib/libgtestd.a	7804ab63965f9b9
+6956	7006	6729735015106085	lib/libgtest_maind.a	c601b6129a43a5df
+7007	10016	6729735045147769	WaterCalculation.exe	ebbb0e8e361ddf4c
+3	427	6729771261163939	CMakeFiles/WaterCalculation.dir/WaterContainerCalculator.cpp.obj	ffe7b26240258de6
+427	3460	6729771291436365	WaterCalculation.exe	ebbb0e8e361ddf4c

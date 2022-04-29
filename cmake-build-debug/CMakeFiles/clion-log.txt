@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\const\CLionProjects\WaterCalculation -B C:\Users\const\CLionProjects\WaterCalculation\cmake-build-debug
+-- Found Python: C:/Users/const/AppData/Local/Programs/Python/Python310/python.exe (found version "3.10.4") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/const/CLionProjects/WaterCalculation/cmake-build-debug

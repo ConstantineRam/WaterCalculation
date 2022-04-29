@@ -1,0 +1,21 @@
+# ninja log v5
+0	119	6729734608879187	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	a253b80f59a0a5c0
+0	119	6729734608879187	C:/Users/const/CLionProjects/WaterCalculation/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	a253b80f59a0a5c0
+119	5253	6729734660220061	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	78e0ce8a8a4dc93
+119	5253	6729734660220061	C:/Users/const/CLionProjects/WaterCalculation/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	78e0ce8a8a4dc93
+5253	5295	6729734660639021	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	7d63de86470dd6d3
+5253	5295	6729734660639021	C:/Users/const/CLionProjects/WaterCalculation/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	7d63de86470dd6d3
+5295	5337	6729734661057535	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	2343d01273479ca
+5295	5337	6729734661057535	C:/Users/const/CLionProjects/WaterCalculation/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	2343d01273479ca
+5337	5377	6729734661466460	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	87ce1422dc53032f
+5337	5377	6729734661466460	C:/Users/const/CLionProjects/WaterCalculation/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	87ce1422dc53032f
+5377	5418	6729734661865564	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	83276afe1ed0aefc
+5377	5418	6729734661865564	C:/Users/const/CLionProjects/WaterCalculation/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	83276afe1ed0aefc
+5418	5458	6729734662274285	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	e47f096345a9a258
+5418	5458	6729734662274285	C:/Users/const/CLionProjects/WaterCalculation/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	e47f096345a9a258
+5459	5499	6729734662683503	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	5d290be556447698
+5459	5499	6729734662683503	C:/Users/const/CLionProjects/WaterCalculation/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	5d290be556447698
+5499	5552	6729734663212064	CMakeFiles/googletest-populate-complete	a6d1800d4d3235a4
+5499	5552	6729734663212064	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	a6d1800d4d3235a4
+5499	5552	6729734663212064	C:/Users/const/CLionProjects/WaterCalculation/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	a6d1800d4d3235a4
+5499	5552	6729734663212064	C:/Users/const/CLionProjects/WaterCalculation/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	a6d1800d4d3235a4

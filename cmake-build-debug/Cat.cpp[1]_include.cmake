@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/const/CLionProjects/Pio/cmake-build-debug/Cat.cpp[1]_tests.cmake")
+  include("C:/Users/const/CLionProjects/Pio/cmake-build-debug/Cat.cpp[1]_tests.cmake")
+else()
+  add_test(Cat.cpp_NOT_BUILT Cat.cpp_NOT_BUILT)
+endif()
