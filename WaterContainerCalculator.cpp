@@ -4,11 +4,11 @@ namespace WaterContainer
 {
     bool Calculator::IsClosed(const int index)
     {
-       return accessor.IsClosed(index);
+       return matrix.IsClosed(index);
     }
     bool Calculator::IsClosed(const int column, const int row)
     {
-        return accessor.IsClosed(column, row);
+        return matrix.IsClosed(column, row);
     }
 
     void Calculator::StartFromCoords (const int column, const int row)
@@ -24,9 +24,9 @@ namespace WaterContainer
 
     void Calculator::PushPointToStack(const int column, const int row)
     {
-        if (!accessor.IsValidCoords(column, row))
+        if (!matrix.IsValidCoords(column, row))
         {return;}
-        pointStack.push(accessor.CreatePoint(column, row));
+        pointStack.push(matrix.CreatePoint(column, row));
     }
 
     void Calculator::ProcessPointOnMatrix(Point point)
@@ -50,17 +50,17 @@ namespace WaterContainer
 
     int Calculator::GetResult()
     {
-        for (int i = accessor.FirstColumn(); i <= accessor.LastColumn(); i++)
+        for (int i = matrix.FirstColumn(); i <= matrix.LastColumn(); i++)
         {
-            StartFromCoords(i, accessor.FirstRow());
-            StartFromCoords(i, accessor.LastRow());
+            StartFromCoords(i, matrix.FirstRow());
+            StartFromCoords(i, matrix.LastRow());
         }
 
-        for (int i = accessor.FirstRow(); i <= accessor.LastRow(); i++)
+        for (int i = matrix.FirstRow(); i <= matrix.LastRow(); i++)
         {
-            StartFromCoords(accessor.FirstColumn(), i);
-            StartFromCoords(accessor.LastColumn(), i);
+            StartFromCoords(matrix.FirstColumn(), i);
+            StartFromCoords(matrix.LastColumn(), i);
         }
-        return accessor.GetOpenPointsCount();
+        return matrix.GetOpenPointsCount();
     }
 }

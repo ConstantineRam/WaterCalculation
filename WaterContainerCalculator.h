@@ -13,7 +13,7 @@ namespace WaterContainer
     {
         friend WaterCalculatorTest;
     private:
-        Storage accessor;
+        Storage matrix;
 
         std::stack<Point> pointStack;
         void StartFromCoords (const int column, const int row);
@@ -27,7 +27,7 @@ namespace WaterContainer
     public:
 
         Calculator(const int *p_data, const int num_columns, const int num_rows
-        ) : accessor(p_data, num_columns, num_rows)
+        ) : matrix(p_data, num_columns, num_rows)
         {
             if (num_rows < 2)
                 {throw std::invalid_argument("num_row is too small.");}
